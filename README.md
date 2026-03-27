@@ -2,10 +2,11 @@
 
 **By Peter Berthon**
 
-#### Non-Technical, Executive summary
+#### Non-Technical, Executive Summary
 
+Around one in four Australian charities reports spending more than they earn each year. This project used publicly available financial data from over 50,000 charities to build a model that can identify which charities are likely to end up in deficit. The aim is to give regulators like the ACNC an early warning, so they can offer support before financial problems become serious — protecting the communities that rely on these organisations.
 
-
+The model that performed best was Gradient Boosting — a technique that combines many small decision-making steps to arrive at a strong overall prediction. After testing six different approaches and carefully adjusting how sensitive the model should be, it was able to correctly identify the vast majority of charities in deficit, while keeping false alarms low. The biggest insight was that expense-related factors (total expenses, employee costs, other expenses) are far more predictive of deficit than revenue. This suggests that for charities, keeping a close watch on spending matters more than chasing income. The model could be used as a screening tool, with a sensitivity dial that can be adjusted depending on how many charities the ACNC wants to review at any given time - broadly for more charities at risk or more focused on the charities in the worst financial position.
 
 #### Technical summary
 
