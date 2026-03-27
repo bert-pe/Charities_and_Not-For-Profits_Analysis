@@ -1,8 +1,13 @@
-# Charity Deficit Prediction — Can We Identify Charities at Risk?
+# Charity Deficit Prediction — Identifying Charities at Risk
 
-**Peter Berthon**
+**By Peter Berthon**
 
-#### Executive summary
+#### Non-Technical, Executive summary
+
+
+
+
+#### Technical summary
 
 This project investigates whether machine learning can identify Australian charities at risk of running a financial deficit using publicly available government data. Starting from a Logistic Regression baseline that caught only 3% of actual deficit cases, the project progressed through a coarse model comparison of six algorithms, fine hyperparameter tuning of the top three, and threshold optimisation.
 
@@ -80,7 +85,7 @@ The performance proved strong for the ensembles. However, Logistic Regression st
 
 ![Baseline Feature Coefficients](images/confusion-ROC-top-None.jpg)
 
-#### Next steps
+#### Recommendations for Next steps
 
 - **Early warning system**: The model could be used as a screening tool by the ACNC to flag charities at risk of deficit. A charity flagged by the model could receive extra support or closer scrutiny of their next Annual Information Statement.
 - **Adjustable threshold**: The 0.3294 threshold can be adjusted depending on whether the ACNC wants to focus on the most at-risk charities or cast a wider net. It could be set to be appropriate for the government/governance staffing levels at a particular time.
