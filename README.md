@@ -84,7 +84,7 @@ The performance proved strong for the ensembles. However, Logistic Regression st
 
 **Feature insights:** Expense-side features are the strongest predictors of deficit. This suggests that charities should focus financial governance on expense management and monitoring, not just revenue generation.
 
-![Baseline Feature Coefficients](images/confusion-ROC-top-None.jpg)
+![Best Model Feature Importances](images/best_model_features_2021.jpg)
 
 ### Recommendations for Next steps
 
